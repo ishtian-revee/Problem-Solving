@@ -3,6 +3,6 @@
 This repository contains some online problem solving sources from different
 online judge sites for learning and developing problem solving skills.
 
-Online Judge: `LightOj`
+Online Judge Portals: `LightOj` `UVa`
 
-Resources: `C` `C++`
+Programming Languages: `C` `C++`
