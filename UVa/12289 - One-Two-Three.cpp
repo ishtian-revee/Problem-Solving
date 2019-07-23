@@ -15,23 +15,10 @@ int main(){
         if(word.length() == 5){
             cout << 3 << endl;
         }else{
-            if(word[0] == 'o'){
-                counter++;
-            }
-
-            if(word[1] == 'n'){
-                counter++;
-            }
-
-            if(word[2] == 'e'){
-                counter++;
-            }
-
-            if(counter>=2){
-                cout << 1 << endl;
-            }else{
-                cout << 2 << endl;
-            }
+            if(word[0] == 'o') counter++;
+            if(word[1] == 'n') counter++;
+            if(word[2] == 'e') counter++;
+            (counter>1) ? cout << "1" << endl : cout << "2" << endl;
         }
         counter = 0;
     }

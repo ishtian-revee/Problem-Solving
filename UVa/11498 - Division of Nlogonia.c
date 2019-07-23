@@ -17,11 +17,12 @@ int main(){
                 printf("divisa\n");
             }else{
                 if(a>x){
-                    if(b>y){
-                        printf("NE\n");
-                    }else{
-                        printf("SE\n");
-                    }
+                    (b>y) ? printf("NE\n") : printf("SE\n");
+//                    if(b>y){
+//                        printf("NE\n");
+//                    }else{
+//                        printf("SE\n");
+//                    }
                 }else{
                     if(b>y){
                         printf("NO\n");
